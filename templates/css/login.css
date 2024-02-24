@@ -1,0 +1,52 @@
+
+
+/* Pengaturan umum halaman */
+body {
+    background: linear-gradient(to right, #ff6b6b, #556270);
+    color: #fff;
+}
+
+/* Gaya untuk kartu (card) */
+.card {
+    border: 1px solid #d1d3e2;
+    background-color: #fff; /* Tambahkan latar belakang putih untuk kartu */
+    color: #333; /* Tentukan warna teks untuk kartu */
+}
+
+/* Gaya untuk header kartu */
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #d1d3e2;
+}
+
+/* Gaya untuk badan kartu */
+.card-body {
+    padding: 2rem;
+}
+
+/* Gaya untuk tombol peringatan (warning) */
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #333; /* Tentukan warna teks untuk tombol */
+}
+
+/* Gaya saat tombol peringatan dihover */
+.btn-warning:hover {
+    background-color: #ffa000;
+    border-color: #ffa000;
+    color: #333; /* Tentukan warna teks untuk tombol saat dihover */
+}
+
+/* Gaya untuk footer kartu */
+.card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #d1d3e2;
+}
+
+/* Gaya saat tombol peringatan ditekan (active) */
+.btn-warning:active {
+    background-color: #ff8f00;
+    border-color: #ff8f00;
+    color: #333; /* Tentukan warna teks untuk tombol saat ditekan */
+}
